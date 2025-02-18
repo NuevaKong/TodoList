@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-image: url("image/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+@media screen and (max-width:580px){
+    .container{
+        opacity: 0.82;
+    }
+}
+
+.title{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#task-input{
+    border-radius: 0.5em;
+    width: 50%;
+    padding: 5px 0;
+}
+
+button{
+    border-radius: 0.5em;
+    border-color: darkgray;
+}
+
+.task-area{
+    border: 1px solid darkgray;
+    border-radius: 0.5em;
+}
+
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid darkgray;
+    position: relative;
+    border-radius: 0.5em;
+    background-color: rgb(240, 240, 240);
+}
+
+#under-line{
+    height: 4px;
+    background-color: rgb(211, 211, 250);
+    position: absolute;
+    width: 50px;
+    left: 0px;
+    top: 52px;
+    padding: 0;
+}
+
+.task-tabs div{
+    padding: 1em;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em 1em;
+}
