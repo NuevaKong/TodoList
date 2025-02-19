@@ -63,5 +63,32 @@ button{
 .task{
     display: flex;
     justify-content: space-between;
-    padding: 0.7em 1em;
+    width: 100%;
 }
+
+.task span{
+    padding: 1em
+}
+
+.task-done{
+    text-decoration: line-through;
+    background-color: rgb(240, 240, 240);
+}
+
+.button-box{
+    display: flex;
+    background-color: white;
+    border: none;
+}
+
+.button-box button {
+    height: 100%;
+    border: none;
+    width: 5em;
+    margin: 0;
+    background-color: white;
+  }
+
+  .button-box button:hover{
+    background-color: rgb(255, 237, 254);
+  }
