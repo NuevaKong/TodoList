@@ -46,6 +46,10 @@ button{
     background-color: rgb(240, 240, 240);
 }
 
+.task-tabs div{
+    cursor:pointer
+}
+
 #under-line{
     height: 4px;
     background-color: rgb(211, 211, 250);
@@ -54,6 +58,7 @@ button{
     left: 0px;
     top: 52px;
     padding: 0;
+    transition: 0.5s;
 }
 
 .task-tabs div{
@@ -70,9 +75,14 @@ button{
     padding: 1em
 }
 
+.task-started{
+    background-color: rgb(240, 240, 240);
+}
+
 .task-done{
     text-decoration: line-through;
     background-color: rgb(240, 240, 240);
+    color: red;
 }
 
 .button-box{
